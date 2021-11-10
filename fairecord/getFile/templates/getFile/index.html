@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, Welcome to my File</h1>
+    {% if latest_file_list %}
+        <ul>
+        {% for file in latest_file_list %}
+            <li><a href= "{% url 'getFile:detail' file.id %}" >{{ file.file_content }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No fileS are available.</p>
+    {% endif %}
+
+</body>
+</html>
