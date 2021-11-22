@@ -20,4 +20,5 @@ urlpatterns = [
     # path('<int:file_id>/results/', views.results, name='results'),
     # ex: /polls/5/vote/
     # path('<int:file_id>/vote/', views.vote, name='vote'),
+    path('pamphlet', views.pamphlet, name='pamphlet'),
 ]

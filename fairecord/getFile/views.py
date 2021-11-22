@@ -36,3 +36,5 @@ def detail(request, file_id):
 # def vote(request, file_id):
 #     return HttpResponse("You're voting on question %s." % file_id)
 
+def pamphlet(request):
+    return render(request, 'getFile/pamphlet.html')
