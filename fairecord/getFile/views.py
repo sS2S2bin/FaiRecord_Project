@@ -6,7 +6,7 @@ from .models import File
 
 #request 인자 받고 httpresposne를 반환함
 #client로 부터 request를 받으면 여러가지 정보를 받게 될 것임
-#data 추출 저장 파일 다운로드 등..
+#data 추출 저장 파일 다 운로드 등..
 def index(request):
     latest_file_list = File.objects.order_by('-down_date')[:5]
     template = loader.get_template('getFile/index.html')
