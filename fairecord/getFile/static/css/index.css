@@ -1,0 +1,30 @@
+.shadow-sm-up{
+    box-shadow: 0 -0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+
+.mypage{
+    font-size:large;
+}
+
+.nav-icon{
+    font-size:large;
+    color:black;
+}
+
+
+.nav-icon{
+    color: black;
+}
+/* 마우스 오버(마우스 올렸을때) */
+.nav-icon:hover{
+    color: #2937f0;
+}
+/* 마우스 클릭하고있을때 */
+.nav-icon:active{
+    color: #2937f0;
+}
+/* 마우스 한번클릭후 
+.nav-icon:visited{
+    color: white;
+}*/
+
