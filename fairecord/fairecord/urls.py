@@ -18,12 +18,8 @@ from django.urls import path
 from django.conf.urls import include
 
 urlpatterns = [
-<<<<<<< HEAD
-    path('myfile/', include('getFile.urls')),
-    path('login/', include('login.urls')),
-=======
     path('getFile/', include('getFile.urls')),
->>>>>>> 219339436f1085f1778001e1bd86760f53dd367f
+    path('login/', include('login.urls')),
     path('admin/', admin.site.urls),
 ]
     

@@ -20,9 +20,5 @@ urlpatterns = [
     # path('<int:file_id>/results/', views.results, name='results'),
     # ex: /polls/5/vote/
     # path('<int:file_id>/vote/', views.vote, name='vote'),
-<<<<<<< HEAD
-]
-=======
     path('pamphlet', views.pamphlet, name='pamphlet'),
 ]
->>>>>>> 219339436f1085f1778001e1bd86760f53dd367f
