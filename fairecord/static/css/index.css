@@ -1,0 +1,61 @@
+.textlink{
+    text-decoration-line: none;
+    color: black;
+  /*   text-decoration-line: underline; */
+  /*   text-decoration-line: overline; */
+  /*   text-decoration-line: line-through; */
+  /*   text-decoration-line: underline line-through overline; */
+  }
+
+/* 마우스 오버(마우스 올렸을때) */
+.textlink:hover{
+    color: #2937f0;
+}
+/* 마우스 클릭하고있을때 */
+.nav-icon:active{
+    color: #2937f0;
+}
+/* 마우스 한번클릭후 
+.nav-icon:visited{
+    color: white;
+}*/
+
+.fade-in-box {
+    display: inline-block;
+    animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -o-animation: fadein 2.5s; /* Opera */
+  }
+  @keyframes fadein {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-moz-keyframes fadein { /* Firefox */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-webkit-keyframes fadein { /* Safari and Chrome */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @-o-keyframes fadein { /* Opera */
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
