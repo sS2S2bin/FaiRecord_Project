@@ -3,8 +3,8 @@
     box-shadow: 0 0 20px rgb(219, 219, 219);
 }
 div.category-scroll{
-    height: 60px;
-    width: 500px; overflow-x: auto; white-space: nowrap; 
+    height: 100px;
+    width: 375px; overflow-x: auto; white-space: nowrap; 
     -ms-overflow-style: none; /* IE Edge 브라우저에서 가로 스크롤 안보이게*/
     scrollbar-width: none; /*firefox 에서 가로 스크롤 안보이게*/
 }
@@ -12,14 +12,15 @@ div.category-scroll::-webkit-scrollbar{
     display: none; /*chrome safari, opera브라우저에서 가로 스크롤 안보이게*/
 }
 .category{
-    display: inline;
+    display: inline-table;
     width: 100px;
     height: 50px;
-    background-color: rgb(199, 219, 255);
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 0 5px rgb(223, 223, 223) ;
     border-radius: 30px;
     padding: 20px;
     margin: 20px;
-    color: white;
+    color: rgb(48, 48, 48);
 }
 .category-grid{
     display: grid;
@@ -32,6 +33,7 @@ div.category-scroll::-webkit-scrollbar{
     font-size: 1rem;
 }
 .category-content{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
+    margin: 5px;
 }
