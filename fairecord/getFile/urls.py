@@ -15,10 +15,11 @@ app_name = 'getFile'
 urlpatterns = [
     path('', views.index, name='index'),
     # ex: /polls/5/
-    path('<int:file_id>/', views.detail, name='detail'),
     # ex: /polls/5/results/
     # path('<int:file_id>/results/', views.results, name='results'),
     # ex: /polls/5/vote/
     # path('<int:file_id>/vote/', views.vote, name='vote'),
+    path('<int:file_id>/', views.detail, name='detail'),
     path('pamphlet', views.pamphlet, name='pamphlet'),
+    path('camera', views.camera, name='camera'),
 ]

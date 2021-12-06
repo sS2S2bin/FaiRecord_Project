@@ -38,3 +38,6 @@ def detail(request, file_id):
 
 def pamphlet(request):
     return render(request, 'getFile/pamphlet.html')
+
+def camera(request):
+    return render(request, 'getFile/camera.html')
