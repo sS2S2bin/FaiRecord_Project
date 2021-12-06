@@ -1,39 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html>
+    <head>{% include "nav/nav_css.html" %}
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <link href="/static/css/pamphlet.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="bg-light">
+        {% include "nav/nav.html" %}
+        <main>
+            <div class="category-scroll"> 
+                <div class="category"> catergory1</div>
+                <div class="category"> catergory2</div>
+                <div class="category"> catergory3</div>
+                <div class="category"> catergory4</div>
+                <div class="category"> catergory5</div>
+                <div class="category"> catergory6</div>
+                <div class="category"> catergory6</div>
+                <div class="category"> catergory6</div>
+                <div class="category"> catergory6</div>
+                <div class="category"> catergory6</div>
+                <div class="category"> catergory6</div>
+                <div class="category"> catergory6</div>
+            </div> 
+            <p class="category-title"> category 1</p>
+            <div class="category-grid">
+                <div class="card category-content" >content</div>
+                <div class="card category-content" >content</div>
+                <div class="card category-content" >content</div>
+                <div class="card category-content" >content</div>
+            </div>
+        </main>
 
-    <link rel="stylesheet" type="text/css" href="/static/lib/ElaAdmin/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/pamphlet.css">
+        <!-- {% include "nav/nav_footer.html" %} -->
 
-
-</head>
-<body class="p-5 mt-3">
-    <div class="category-scroll"> 
-        <div class="category"> catergory1</div>
-        <div class="category"> catergory2</div>
-        <div class="category"> catergory3</div>
-        <div class="category"> catergory4</div>
-        <div class="category"> catergory5</div>
-        <div class="category"> catergory6</div>
-        <div class="category"> catergory6</div>
-        <div class="category"> catergory6</div>
-        <div class="category"> catergory6</div>
-        <div class="category"> catergory6</div>
-        <div class="category"> catergory6</div>
-        <div class="category"> catergory6</div>
-    </div> 
-    <p class="category-title"> category 1</p>
-    <div class="category-grid">
-        <div class="card category-content" >content</div>
-        <div class="card category-content" >content</div>
-        <div class="card category-content" >content</div>
-        <div class="card category-content" >content</div>
-    </div>
-
-
-</body>
+        {% include "nav/nav_scripts.html" %}
+    </body>
 </html>
